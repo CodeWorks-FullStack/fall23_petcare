@@ -1,0 +1,76 @@
+/* SECTION element selectors */
+
+body{
+  margin: 0;
+}
+
+header{
+  padding: 10px 30px;
+  display: flex;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+nav{
+  display: flex;
+}
+
+nav > p{
+  margin: 0 5px;
+}
+
+main{ 
+  padding: 10px 30px;
+  margin-top: 6vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  margin-top: 3vh;
+  background-color: #1F2130;
+  color: white;
+  padding: 20px 80px;
+  display: flex;
+}
+
+footer > div{
+  padding: 10px;
+}
+
+img{
+  border-radius: 112px;
+  max-height: 70vh;
+  box-shadow: 0 6px purple;
+}
+
+button{
+  min-height: 50px;
+  padding: 10px;
+  color: white;
+  background-color: purple !important;
+}
+
+/* SECTION class selectors */
+
+#coolButton.service-button{
+
+}
+
+.title{
+  font-size: 1.6em;
+  padding-bottom: 10px;
+  text-shadow: 0 1px 9px rgb(103, 103, 103);
+}
+
+.service-button{
+  margin-right: 1vw;
+  background-color: green !important;
+}
+
+
+.hero-text{
+  max-width: 40%;
+}
